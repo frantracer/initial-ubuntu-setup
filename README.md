@@ -18,3 +18,10 @@ git config --global tag.gpgSign true
 git config --global user.name "name"
 git config --global user.email "your@email.com"
 ```
+
+# Setup Gnome extensions
+
+Install through Extension Manager:
+- Dash to Panel
+- Caffeine
+- Clipboard Indicator
