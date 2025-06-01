@@ -29,7 +29,7 @@ echo "📦 Setting up Flatpak and Flathub..."
 sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 
 echo "🧰 Installing Flatpak apps..."
-flatpak install -y https://dl.flathub.org/repo/appstream/io.missioncenter.MissionCenter.flatpakref
+flatpak install -y flathub io.missioncenter.MissionCenter
 flatpak install -y flathub it.mijorus.gearlever
 
 update-desktop-database "$HOME/.local/share/applications"
